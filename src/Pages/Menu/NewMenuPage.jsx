@@ -27,7 +27,7 @@ const NewMenuPage = () => {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50">
           {/* Close Button */}
           <button
-            className="absolute top-5 right-5 bg-white text-black p-2 rounded-full shadow-lg text-lg hover:bg-gray-300 transition"
+            className="absolute top-5 right-5 bg-white text-black p-2co rounded-full shadow-lg text-lg hover:bg-gray-300 transition"
             onClick={() => setSelectedImage(null)}
           >
             ✕
