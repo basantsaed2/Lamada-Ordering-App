@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import m1 from "../../assets/Images/m1.JPG";
-import m2 from "../../assets/Images/m2.JPG";
-import m3 from "../../assets/Images/m3.JPG";
-import m4 from "../../assets/Images/m.JPEG";
+import m1 from "../../assets/Images/m1.jpg";
+import m2 from "../../assets/Images/m2.jpg";
+import m3 from "../../assets/Images/m3.jpg";
+import m4 from "../../assets/Images/m.jpeg";
 
 const menuImages = [m1, m2, m3, m4];
 
