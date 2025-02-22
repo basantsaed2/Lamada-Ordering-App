@@ -3,6 +3,7 @@ import m1 from "../../assets/Images/m1.jpg";
 import m2 from "../../assets/Images/m2.jpg";
 import m3 from "../../assets/Images/m3.jpg";
 import m4 from "../../assets/Images/m.jpeg";
+import { AiOutlineClose } from "react-icons/ai"; // Importing the close icon
 
 const menuImages = [m1, m2, m3, m4];
 
@@ -27,10 +28,10 @@ const NewMenuPage = () => {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50">
           {/* Close Button */}
           <button
-            className="absolute top-5 right-5 bg-white text-black p-2co rounded-full shadow-lg text-lg hover:bg-gray-300 transition"
+            className="absolute top-5 right-5 bg-white text-black p-2 rounded-full shadow-lg hover:bg-gray-300 transition"
             onClick={() => setSelectedImage(null)}
           >
-            ✕
+            <AiOutlineClose size={24} />
           </button>
 
           <img src={selectedImage} className="max-w-full max-h-full rounded-lg" alt="Enlarged" />
