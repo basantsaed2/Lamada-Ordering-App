@@ -34,7 +34,7 @@ const NewHomePage=()=>{
                     <Link to="#" className="opacity-50 cursor-not-allowed">
                         <GooglePlayIcon/>
                     </Link>
-                    <Link to="https://apps.apple.com/eg/app/lamada/id6553989792">
+                    <Link target="_blank" to="https://apps.apple.com/eg/app/lamada/id6553989792">
                         <AppleIcon/>
                     </Link>      
                 </div>
