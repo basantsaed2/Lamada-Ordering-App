@@ -75,11 +75,18 @@ const Navbar = () => {
                                    >
                                           <div className='w-full flex flex-col'>
                                                  <Link
-                                                        to={'menu'}
+                                                        to={'lamada_menu'}
                                                         className='w-full text-xl font-TextFontMedium text-mainColor border-b-2 p-3 pb-1'
                                                         onClick={() => setToggleOpen(false)}
                                                  >
                                                         Menu
+                                                 </Link>
+                                                 <Link
+                                                        to={'menu'}
+                                                        className='w-full text-xl font-TextFontMedium text-mainColor border-b-2 p-3 pb-1'
+                                                        onClick={() => setToggleOpen(false)}
+                                                 >
+                                                        Order Online
                                                  </Link>
                                                  <Link
                                                         to={'branches'}

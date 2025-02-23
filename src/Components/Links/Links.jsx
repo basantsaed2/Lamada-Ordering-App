@@ -11,10 +11,16 @@ const Links = () => {
                      >
                             Home
                      </NavLink> */}
-                     <NavLink to={'menu'}
+                     <NavLink to={'lamada_menu'}
                             className='text-xl font-TextFontRegular text-white pb-1'
                      >
                             Menu
+                     </NavLink>
+                     <NavLink
+                            to={'menu'}
+                            className='text-xl font-TextFontRegular text-white pb-1'
+                     >
+                            Order Online
                      </NavLink>
                      <NavLink to={'branches'}
                             className='text-xl font-TextFontRegular text-white pb-1'

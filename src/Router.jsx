@@ -83,6 +83,10 @@ export const router = createBrowserRouter(
         //   element: <HomePage />,
         // },
         {
+          path: 'home',
+          element: <NewHomePage />,
+        },
+        {
           path: '',
           element: <NewHomePage />,
         },
